@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.8'
 gem 'bootstrap-sass', '2.0.4'
 gem 'bcrypt-ruby', '3.0.1'
+#This is suppose to be required by rails < 3.1 
+#gem 'rack-ssl', :require => 'rack/ssl'
 
 
 # Bundle edge Rails instead:
